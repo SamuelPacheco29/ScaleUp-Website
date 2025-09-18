@@ -675,10 +675,10 @@ body {
     margin: 0 auto;
 }
 
-.service-bg-1 { background-image: url(/images/bg-services.webp);}
-.service-bg-2 { background-image: url(/images/bg1-services.webp);}
-.service-bg-3 { background-image: url(/images/bg2-services.webp);}
-.service-bg-4 { background-image: url(/images/bg3-services.webp);}
+.service-bg-1 { background-image: url(../images/bg-services.webp); }
+.service-bg-2 { background-image: url(../images/bg1-services.webp); }
+.service-bg-3 { background-image: url(../images/bg2-services.webp); }
+.service-bg-4 { background-image: url(../images/bg3-services.webp); }
 
 .service-panel {
     --transition-panel: 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
