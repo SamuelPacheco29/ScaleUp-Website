@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - ScaleUp</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <header class="main-header header-solid">
+        <nav class="main-nav">
+            <a href="index.html" class="nav-logo">SCALEUP</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+            <a href="contacto.html#form" class="btn btn-primary nav-cta">Solicita tu demo</a>
+            <button class="hamburger" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section" id="form">
+            <div class="contact-block">
+                
+                <div class="contact-info-panel">
+                    <h3>Información de Contacto</h3>
+                    <p>Nos encantaría saber de ti. Completa el formulario o contáctanos directamente a través de estos canales.</p>
+                    <ul class="info-list">
+                        <li>
+                            <i class="ph-bold ph-envelope"></i>
+                            <a href="mailto:contacto@scaleup.com">contacto@scaleup.com</a>
+                        </li>
+                        <li>
+                            <i class="ph-bold ph-whatsapp-logo"></i>
+                            <a href="https://wa.me/573001234567" target="_blank">+57 300 123 4567</a>
+                        </li>
+                        <li>
+                            <i class="ph-bold ph-clock"></i>
+                            <span>Lunes a Viernes, 9:00 - 17:00</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact-form-panel">
+                    <h2 class="form-title">Envíanos un mensaje</h2>
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" placeholder="Tu nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Cuéntanos cómo podemos ayudarte..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="main-footer">
+        <div class="footer-expanded">
+            <div class="footer-brand">
+                <div class="footer-logo">SCALEUP</div>
+                <p>Inventario simple, decisiones rápidas. Control en tiempo real para optimizar tu operación.</p>
+            </div>
+            <div class="footer-about">
+                <h4>Contacto</h4>
+                <ul class="contact-list">
+                    <li>Email: <a href="mailto:contacto@scaleup.com">scaleup@gmail.com</a></li>
+                    <li>Tel: <a href="tel:+11234567890">+57 3239604096</a></li>
+                    <li>Ubicación: Bogotá, Colombia</li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h4>Páginas</h4>
+                <ul>
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-legal">
+            <span>© <span id="year"></span> ScaleUp</span>
+            <div class="legal-links">
+                <a href="#">Políticas de Privacidad</a>
+                <a href="#">Términos de Servicio</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/script/main.js"> </script>
+
+</body>
+</html>
